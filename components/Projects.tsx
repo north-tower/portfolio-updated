@@ -67,7 +67,7 @@ function Projects() {
                 beautiful carasoul, loading bars and lots of of good UI / UX
                 design implementations! 👉 How to use Mapbox to display the
                 exact location of all the listings! 👉 How to finally deploy the
-                final build on Vercel!
+                final build on Vercel!https://youtube.com/shorts/bhzIgpXT8RI?si=W__oFcQ9n94JBuAj
               </p>
             </div>
           </div>
