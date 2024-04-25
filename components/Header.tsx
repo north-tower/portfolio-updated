@@ -27,6 +27,7 @@ function Header() {
     <SocialIcon url="https://www.youtube.com" fgColor="gray" bgColor="transparent" />
 
   </motion.div>
+  
   <motion.div 
         initial={{
             x : 500,

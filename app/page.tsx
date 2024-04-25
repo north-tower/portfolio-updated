@@ -1,10 +1,11 @@
 import About from '@/components/About';
+import ContactMe from '@/components/ContactMe';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
 import WorkExperience from '@/components/WorkExperience';
-
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -29,6 +30,21 @@ export default function Home() {
       <section id='projects' className='snap-start' >
         <Projects  />
       </section>
+      <section id='contact' className='snap-start'>
+        <ContactMe />
+      </section>
+      <Link href="#hero">
+        <footer className='sticky bottom-5 w-full cursor-pointer'>
+          <div className='flex items-center justify-center'>
+            <img 
+             className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0
+             cursor-pointer'
+             src='https://firebasestorage.googleapis.com/v0/b/familia-blog.appspot.com/o/files%2F95a6e270cd322f9fa89852bd6314345c.jpg?alt=media&token=b4a3dfd3-2730-4259-8b64-68e62ae28e0d'
+             alt=''
+             />
+          </div>
+        </footer>
+      </Link>
     </div>
   );
 }
