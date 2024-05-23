@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import ExperienceCard from './ExperienceCard'
+import ExperienceCard2 from './ExperienceCard2'
 
 function WorkExperience() {
   return (
@@ -20,7 +21,7 @@ function WorkExperience() {
          p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80'>
           <ExperienceCard />
 
-          <ExperienceCard />
+          <ExperienceCard2 />
 
           <ExperienceCard />
 
