@@ -10,7 +10,7 @@ export default function ExperienceCard() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         className='w-16 h-16 rounded-full object-cover object-center'
-        src="https://cdn.sanity.io/images/g86efv0h/production/7e272592098820aae11fa8d3924101bcd691a620-500x500.png?w=2000&fit=max&auto=format"
+        src="https://cdn.sanity.i/images/g86efv0h/production/7e272592098820aae11fa8d3924101bcd691a620-500x500.png?w=2000&fit=max&auto=format"
         alt=''
       />
 
@@ -20,7 +20,7 @@ export default function ExperienceCard() {
         <div className='flex justify-center md:justify-start space-x-2 my-2'>
           <img 
             className="h-10 w-10 rounded-full"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMklBUVBX0yV0l3hIdTIxP-luLdoRYZAzvbA&s"
+            src="https://cdn.worldvectorlogo.com/logos/next-js.svg"
             alt=''
           />
            <img 
@@ -38,6 +38,12 @@ export default function ExperienceCard() {
             src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
             alt=''
           />
+            <img 
+            className="h-10 w-10 rounded-full"
+            src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+            alt=''
+          />
+
         </div>
         <p className='uppercase py-1 text-gray-300 text-sm'>
           JAN 2024 - Present
