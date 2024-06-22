@@ -10,24 +10,40 @@ function ExperienceCard2() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       className='w-16 h-16 rounded-full object-cover object-center'
-      src="https://cdn.worldvectorlogo.com/logos/fiverr-1.svg"
+      src="https://cdn.worldvectorlogo.com/logos/z.svg"
       alt=''
     />
 
     <div className='px-1 md:px-10 text-center md:text-left'>
-      <h4 className='font-light'>Freelancer</h4>
-      <p className='font-bold text-xs mt-1'>Fiverr</p>
+      <h4 className='font-light'>Software Engineer</h4>
+      <p className='font-bold text-xs mt-1'>Zenitech Solutions</p>
       <div className='flex justify-center md:justify-start space-x-2 my-2'>
         <img 
           className="h-10 w-10 rounded-full"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW3Kanc_cP40aF_HzAZChUrqpiXXrM6B4w1w&s"
+          src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg"
+          alt=''
+        />
+        <img 
+          className="h-10 w-10 rounded-full"
+          src="https://cdn.worldvectorlogo.com/logos/python-5.svg"
+          alt=''
+        />
+        <img 
+          className="h-10 w-10 rounded-full"
+          src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+          alt=''
+        />
+         <img 
+          className="h-10 w-10 rounded-full"
+          src="https://cdn.worldvectorlogo.com/logos/css-3.svg"
           alt=''
         />
       </div>
       <p className='uppercase py-1 text-gray-300 text-sm'>
         OCT 23 2021 - DEC 08 2022
       </p>
-      <ul className='list-disc space-y-4 ml-5 text-sm text-left h-24 overflow-y-scroll'>
+      <ul className='list-disc space-y-4 ml-5 text-sm text-left h-24 overflow-y-scroll
+      scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80'>
    <li>
    Data Analysis: Conducted data cleaning, processing, and analysis using R.    
     </li>  
