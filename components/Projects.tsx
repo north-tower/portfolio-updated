@@ -51,7 +51,7 @@ function Projects() {
       transition={{ duration: 1.2 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      src="https://i.postimg.cc/7YZJTsr4/yyy.png"
+      src={project.image}
       className="h-[180px]"
       alt=""
     />
@@ -76,7 +76,7 @@ function Projects() {
         ))}
       </div>
       <p className="text-xs text-center md:text-left">
-       {project?.content}
+       {project.content}
       </p>
     </div>
   </div>
