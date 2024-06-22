@@ -30,7 +30,7 @@ function ExperienceCard2() {
         />
         <img 
           className="h-10 w-10 rounded-full"
-          src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+          src="https://cdn.worldvectorlogo.com/logos/xampp.svg"
           alt=''
         />
          <img 
