@@ -23,11 +23,26 @@ export default function ExperienceCard() {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMklBUVBX0yV0l3hIdTIxP-luLdoRYZAzvbA&s"
             alt=''
           />
+           <img 
+            className="h-10 w-10 rounded-full"
+            src="https://cdn.worldvectorlogo.com/logos/typescript.svg"
+            alt=''
+          />
+           <img 
+            className="h-10 w-10 rounded-full"
+            src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
+            alt=''
+          />
+           <img 
+            className="h-10 w-10 rounded-full"
+            src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
+            alt=''
+          />
         </div>
         <p className='uppercase py-1 text-gray-300 text-sm'>
-          JAN 2024 - "Present"
+          JAN 2024 - Present
         </p>
-        <ul className='list-disc space-y-4 ml-5 text-sm text-left h-24 overflow-y-scroll'>
+        <ul className='list-disc space-y-4 ml-5 text-sm text-left h-24 overflow-y-scroll scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80'>
           <li>Design and Develop Software: Create, test, and maintain software applications.</li>
           <li>Code Writing: Write efficient, maintainable, and scalable code.</li>
           <li>Problem-Solving: Debug and resolve technical issues.</li>
