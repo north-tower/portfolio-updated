@@ -3,16 +3,18 @@ import { motion } from 'framer-motion';
 
 export default function ExperienceCard() {
   return (
-    <article className='flex flex-col rounded-lg h-96 items-center space-y-7 flex-shrink-0 w-[300px] md:w-[400px] xl:w-[500px] snap-center bg-[#5e5c5c] p-10 hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 overflow-hidden'>
-      <motion.img
-        initial={{ y: -100, opacity: 0 }}
-        transition={{ duration: 1.2 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        className='w-16 h-16 rounded-full object-cover object-center'
-        src="https://cdn.sanity.i/images/g86efv0h/production/7e272592098820aae11fa8d3924101bcd691a620-500x500.png?w=2000&fit=max&auto=format"
-        alt=''
-      />
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[300px] md:w-[400px] xl:w-[500px] snap-center bg-[#5e5c5c] p-10 hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+      <div className='relative h-16 w-16'>
+        <motion.img
+          initial={{ y: -100, opacity: 0 }}
+          transition={{ duration: 1.2 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className='h-full w-full rounded-full object-cover object-center'
+          src="https://cdn.sanity.i/images/g86efv0h/production/7e272592098820aae11fa8d3924101bcd691a620-500x500.png?w=2000&fit=max&auto=format"
+          alt=''
+        />
+      </div>
 
       <div className='px-1 md:px-10 text-center md:text-left'>
         <h4 className='font-light'>Software Engineer</h4>
@@ -43,7 +45,6 @@ export default function ExperienceCard() {
             src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
             alt=''
           />
-
         </div>
         <p className='uppercase py-1 text-gray-300 text-sm'>
           JAN 2024 - Present

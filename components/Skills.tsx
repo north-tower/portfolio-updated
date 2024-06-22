@@ -21,6 +21,8 @@ const skills = [
     { url: 'https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg', level: '95' },
     { url: 'https://cdn.worldvectorlogo.com/logos/sanity.svg', level: '80' },
     { url: 'https://cdn.worldvectorlogo.com/logos/html-1.svg', level: '98' },
+    { url: 'https://cdn.worldvectorlogo.com/logos/stripe-2.svg', level: '80' },
+
 
 
 
