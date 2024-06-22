@@ -3,7 +3,14 @@
 import { motion } from 'framer-motion'
 import Skill from './Skill'
 
-
+const skills = [
+    { name: 'SQL', level: 'Advanced' },
+    { name: 'PHP', level: 'Advanced' },
+    { name: 'HTML', level: 'Advanced' },
+    { name: 'CSS', level: 'Advanced' },
+    { name: 'JavaScript', level: 'Intermediate' },
+    // Add more skills as needed
+];
 function Skills() {
   return(
     <motion.div
@@ -19,15 +26,15 @@ function Skills() {
              Skills
         </h3>
         <h3 className='absolute top-36 uppercase tracking-[3px]
-        text-gray-500 text-sm'>
+        text-gray-500 text-sm mt-0'>
              Hover over a skill for current profieciency
         </h3>   
 
-        <div className='grid grid-cols-4 gap-5'>
-            <Skill />
-            <Skill />
-            <Skill />
-
+        <div className='grid grid-cols-4 gap-5 absolute top-48  '>
+           {skills.map((skill, index) => (
+                <Skill key={index} name={skill.name} level={skill.level} />
+            ))}
+         
 
           </div>
         </motion.div>

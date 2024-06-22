@@ -35,35 +35,40 @@ function ExperienceCard2() {
         />
          <img 
           className="h-10 w-10 rounded-full"
-          src="https://cdn.worldvectorlogo.com/logos/css-3.svg"
+          src="https://cdn.worldvectorlogo.com/logos/mysql-3.svg"
           alt=''
         />
       </div>
       <p className='uppercase py-1 text-gray-300 text-sm'>
-        OCT 23 2021 - DEC 08 2022
+        FEB 4 2023 - MAY 31 2023
       </p>
       <ul className='list-disc space-y-4 ml-5 text-sm text-left h-24 overflow-y-scroll
       scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80'>
    <li>
-   Data Analysis: Conducted data cleaning, processing, and analysis using R.    
+   SQL Database Management:
+
+Designing and optimizing database schemas, writing SQL queries, and ensuring data integrity.    
     </li>  
     <li>
-Statistical Modeling: Developed and implemented statistical models to draw insights from data.
+PHP Backend Development:
+
+Creating server-side logic, integrating APIs, and implementing security measures in PHP applications.
         </li> 
         <li>
-        Visualization: Created detailed and informative data visualizations using ggplot2 and other R packages.
+        HTML/CSS Frontend Development:
+
+Translating designs into responsive web pages, ensuring cross-browser compatibility and usability.
         </li>
         <li>
-        Custom Scripts: Wrote custom R scripts to automate data-related tasks and workflows.
+        Full-Stack Integration:
+
+Integrating frontend and backend components, implementing dynamic content using JavaScript and AJAX.
         </li>
-{/* Consultation: Provided expert advice on best practices for data analysis and statistical modeling.
-Report Generation: Generated comprehensive reports summarizing analysis results and insights.
-Client Interaction: Communicated with clients to understand their requirements and deliver tailored solutions.
-Problem Solving: Addressed and resolved data-related issues and challenges for clients.
-Project Management: Managed multiple projects simultaneously, ensuring timely and quality delivery.
-Continuous Learning: Stayed updated with the latest developments in R programming and data science.
-        
-        */}
+        <li>
+Testing and Quality Assurance:
+
+Writing unit tests, conducting code reviews, and debugging to maintain code quality and performance.
+</li>
       </ul>
     </div>
   </article>
