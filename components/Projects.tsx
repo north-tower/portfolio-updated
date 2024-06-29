@@ -22,10 +22,10 @@ function Projects() {
   },
    { 
     name: "Netflix Clone", 
-  content: "I developed an Airbnb 2.0 clone using Next.js, showcasing advanced features such as a sleek Date and Calendar Functionality for seamless booking experiences, inspired by Airbnb's interface. Additionally, the project highlights a robust Search Functionality that delivers instant listing results, leveraging Next.js for optimized performance.",
+  content: "Celebrate with me as I unveil my Netflix 2.0 Clone, crafted with React.js. This project showcases a robust authentication system powered by Google for secure user interactions. The Home Screen captures the essence of Netflix, presenting an array of movies in a visually captivating layout. A dedicated Subscription page allows seamless management of monthly subscriptions, with Stripe facilitating smooth checkout flows. Leveraging Firebase extensions, I've seamlessly integrated Stripe recurring payments with user accounts. The project concludes with a polished deployment on Firebase Hosting, ensuring a seamless and immersive user experience. This portfolio entry underscores my proficiency in frontend development and integrating sophisticated payment solutions, delivering a captivating interface reminiscent of leading streaming platforms.",
     id: "1",
     image: "https://i.postimg.cc/0Q9SJ7KF/bb.png",
-    technologies: ["https://cdn.worldvectorlogo.com/logos/next-js.svg", "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg", "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg","https://cdn.worldvectorlogo.com/logos/firebase-2.svg","https://cdn.worldvectorlogo.com/logos/mapbox-2.svg"]
+    technologies: ["https://cdn.worldvectorlogo.com/logos/react-2.svg", "https://cdn.worldvectorlogo.com/logos/css-3.svg", "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg","https://cdn.worldvectorlogo.com/logos/firebase-2.svg"]
   },
 ];
 
