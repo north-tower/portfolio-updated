@@ -22,7 +22,7 @@ function Header() {
             duration: 1.5
          }}
          className='flex flex-row items-center' >
-    <SocialIcon url="https://www.youtube.com" fgColor="gray" bgColor="transparent" />
+    <SocialIcon url="https://x.com" fgColor="gray" bgColor="transparent" />
     <SocialIcon url="https://www.youtube.com" fgColor="gray" bgColor="transparent" />
     <SocialIcon url="https://www.youtube.com" fgColor="gray" bgColor="transparent" />
 
