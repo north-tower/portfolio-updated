@@ -8,17 +8,17 @@ function Projects() {
  const projects = [
   { 
     name: "Amazon Clone", 
-    content: "I developed an Airbnb 2.0 clone using Next.js, showcasing advanced features such as a sleek Date and Calendar Functionality for seamless booking experiences, inspired by Airbnb's interface. Additionally, the project highlights a robust Search Functionality that delivers instant listing results, leveraging Next.js for optimized performance.",
+    content: "I developed an Amazon 2.0 Clone using Next.js, showcasing a comprehensive e-commerce solution. Key features include a secure Log In and Log Out Authentication Flow using NextAuth, dynamic Add to Basket functionality akin to Amazon, and a responsive Basket page for managing orders. Integration of Stripe facilitated seamless payments, while Cloud Firestore managed order details efficiently. The UI was crafted with Tailwind CSS for responsiveness, and deployment was executed flawlessly on Vercel. This project not only demonstrates my proficiency in full-stack development but also highlights my capability to integrate diverse technologies to deliver a robust user experience.",
     id: "1",
-    image: "https://images.unsplash.com/photo-1622192308862-8032a315dd16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwZGlzaGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://i.postimg.cc/d3FfzHX3/hjhh.png",
     technologies: ["https://cdn.worldvectorlogo.com/logos/next-js.svg", "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg", "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg","https://cdn.worldvectorlogo.com/logos/firebase-2.svg","https://cdn.worldvectorlogo.com/logos/stripe-2.svg"]
   },
   { 
-    name: "Pizza", 
-    price: 9.99,
-    id: "2", 
-    image: "https://images.unsplash.com/photo-1622192308862-8032a315dd16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwZGlzaGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    technologies: ["Angular", "Express.js", "MySQL"]
+    name: "Airbnb Clone", 
+  content: "I developed an Airbnb 2.0 clone using Next.js, showcasing advanced features such as a sleek Date and Calendar Functionality for seamless booking experiences, inspired by Airbnb's interface. Additionally, the project highlights a robust Search Functionality that delivers instant listing results, leveraging Next.js for optimized performance.",
+    id: "1",
+    image: "https://i.postimg.cc/nr7DQTc4/aa.png",
+    technologies: ["https://cdn.worldvectorlogo.com/logos/next-js.svg", "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg", "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg","https://cdn.worldvectorlogo.com/logos/firebase-2.svg","https://cdn.worldvectorlogo.com/logos/mapbox-2.svg"]
   }
 ];
 
