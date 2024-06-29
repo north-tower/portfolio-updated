@@ -19,7 +19,14 @@ function Projects() {
     id: "1",
     image: "https://i.postimg.cc/nr7DQTc4/aa.png",
     technologies: ["https://cdn.worldvectorlogo.com/logos/next-js.svg", "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg", "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg","https://cdn.worldvectorlogo.com/logos/firebase-2.svg","https://cdn.worldvectorlogo.com/logos/mapbox-2.svg"]
-  }
+  },
+   { 
+    name: "Netflix Clone", 
+  content: "I developed an Airbnb 2.0 clone using Next.js, showcasing advanced features such as a sleek Date and Calendar Functionality for seamless booking experiences, inspired by Airbnb's interface. Additionally, the project highlights a robust Search Functionality that delivers instant listing results, leveraging Next.js for optimized performance.",
+    id: "1",
+    image: "https://i.postimg.cc/0Q9SJ7KF/bb.png",
+    technologies: ["https://cdn.worldvectorlogo.com/logos/next-js.svg", "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg", "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg","https://cdn.worldvectorlogo.com/logos/firebase-2.svg","https://cdn.worldvectorlogo.com/logos/mapbox-2.svg"]
+  },
 ];
 
 
