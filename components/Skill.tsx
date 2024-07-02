@@ -2,6 +2,8 @@ import { motion } from "framer-motion"
 
 type Props = {
   directionLeft?: boolean;
+  url?: string;
+  level?: string;
 }
 function Skill({ directionLeft, url, level }: Props){
   return(
