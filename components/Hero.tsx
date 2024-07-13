@@ -21,7 +21,7 @@ function Hero() {
       text-center overflow-hidden ' >
         <BackgroundCircles />
         <img className='relative rounded-full h-32 w-32 mx-auto object-cover'
-        src="https://media.licdn.com/dms/image/D4E03AQHOim8p9QtZoA/profile-displayphoto-shrink_200_200/0/1704874858832?e=1719446400&v=beta&t=21fKgRO23JPRJV3Ol0DPc-BX_00Z5En13rOyjJ8Veeo"
+        src="https://i.postimg.cc/SRXwbFcb/1704874858832.jpg"
         alt=''
         />
         <div className="z-20">
