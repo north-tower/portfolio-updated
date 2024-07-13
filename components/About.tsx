@@ -20,7 +20,7 @@ function About() {
           transition={{ duration: 1.2 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          src="https://media.licdn.com/dms/image/D4E03AQHOim8p9QtZoA/profile-displayphoto-shrink_200_200/0/1704874858832?e=1719446400&v=beta&t=21fKgRO23JPRJV3Ol0DPc-BX_00Z5En13rOyjJ8Veeo"
+          src="https://i.postimg.cc/SRXwbFcb/1704874858832.jpg"
           className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-64 xl:w-[300px] xl:h-[350px]'
         />
         <div className='space-y-10 px-0 md:px-10 max-w-lg'>
