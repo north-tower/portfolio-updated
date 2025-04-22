@@ -78,7 +78,7 @@ function ContactMe() {
           <h4 className="text-xl md:text-2xl font-semibold text-center">
             I have got just what you need.{" "}
             <span className="decoration-[#f7ab0a]/50 underline">
-              Let's Talk.
+              Let&apos;s Talk.
             </span>
           </h4>
           
