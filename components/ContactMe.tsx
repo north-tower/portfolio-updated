@@ -1,31 +1,25 @@
 'use client'
 
-import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "lucide-react";
+import { Phone, MapPin, Mail } from "lucide-react";
 import { useState } from "react";
+import { useForm, SubmitHandler } from "react-hook-form";
 
-// Note: react-hook-form is used in original but we'll use built-in state for this example
-// since we can't import that library in the artifact
+type Inputs = {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+};
 
 function ContactMe() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: ""
-  });
+  const { register, handleSubmit, reset } = useForm<Inputs>();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const onSubmit: SubmitHandler<Inputs> = (formData) => {
     setIsSubmitting(true);
     
-    // Simulate form submission
+    // Small delay to show loading state
     setTimeout(() => {
       // Open email client with populated fields
       window.location.href = `mailto:muneshmyke@gmail.com?subject=${formData.subject}&body=Hello, my name is ${formData.name}. ${formData.message} (${formData.email})`;
@@ -35,7 +29,7 @@ function ContactMe() {
       // Reset form after submission
       setTimeout(() => {
         setSubmitted(false);
-        setFormData({ name: "", email: "", subject: "", message: "" });
+        reset();
       }, 3000);
     }, 500);
   };
@@ -55,65 +49,53 @@ function ContactMe() {
         <div className="space-y-4">
           <div className="flex items-center space-x-5 justify-center group">
             <div className="rounded-full bg-amber-500/10 p-2 group-hover:bg-amber-500/20 transition-all duration-300">
-              <PhoneIcon className="text-amber-500 h-5 w-5" />
+              <Phone className="text-amber-500 h-5 w-5" />
             </div>
             <p className="group-hover:text-amber-500 transition-all duration-300">+254799229340</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center group">
             <div className="rounded-full bg-amber-500/10 p-2 group-hover:bg-amber-500/20 transition-all duration-300">
-              <EnvelopeIcon className="text-amber-500 h-5 w-5" />
+              <Mail className="text-amber-500 h-5 w-5" />
             </div>
             <p className="group-hover:text-amber-500 transition-all duration-300">muneshmyke@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center group">
             <div className="rounded-full bg-amber-500/10 p-2 group-hover:bg-amber-500/20 transition-all duration-300">
-              <MapPinIcon className="text-amber-500 h-5 w-5" />
+              <MapPin className="text-amber-500 h-5 w-5" />
             </div>
             <p className="group-hover:text-amber-500 transition-all duration-300">00100 Nairobi</p>
           </div>
         </div>
 
-        <form onSubmit={handleSubmit} className="flex flex-col space-y-3 w-full max-w-md mx-auto p-5 bg-gray-800/30 rounded-lg shadow-lg">
+        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-3 w-full max-w-md mx-auto p-5 bg-gray-800/30 rounded-lg shadow-lg">
           <div className="flex flex-col sm:flex-row gap-3">
             <input
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              placeholder="Name"
-              className="contactInput flex-1"
+              {...register('name', { required: true })}
+              placeholder="Name" 
+              className="contactInput flex-1" 
               type="text"
-              required
             />
             <input
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              placeholder="Email"
-              className="contactInput flex-1"
+              {...register('email', { required: true })}
+              placeholder="Email" 
+              className="contactInput flex-1" 
               type="email"
-              required
             />
           </div>
 
           <input
-            name="subject"
-            value={formData.subject}
-            onChange={handleChange}
-            placeholder="Subject"
-            className="contactInput"
+            {...register('subject', { required: true })}
+            placeholder="Subject" 
+            className="contactInput" 
             type="text"
-            required
           />
 
           <textarea
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            placeholder="Message"
+            {...register('message', { required: true })}
+            placeholder="Message" 
             className="contactInput h-32"
-            required
           />
 
           <button
