@@ -43,7 +43,7 @@ function ContactMe() {
       <div className="flex flex-col space-y-6 mt-20">
         <h4 className="font-semibold text-center text-xl md:text-2xl">
           I have got just what you need.{" "}
-          <span className="decoration-amber-500 underline">Let's Talk.</span>
+          <span className="decoration-amber-500 underline">Let&apos;s Talk.</span>
         </h4>
 
         <div className="space-y-4">
