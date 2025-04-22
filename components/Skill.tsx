@@ -1,7 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-function Skill({ url, level, directionLeft }) {
+type SkillProps = {
+  url: string;
+  level: string;
+  directionLeft?: boolean;
+}
+
+function Skill({ url, level, directionLeft }: SkillProps) {
   return (
     <div className="group relative flex cursor-pointer">
       <motion.img
