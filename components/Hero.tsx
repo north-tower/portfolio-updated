@@ -87,7 +87,7 @@ function Hero() {
           >
             <Link href="#contact">
               <button className='bg-gradient-to-r from-yellow-500 to-orange-500 px-6 py-3 rounded-lg text-black font-medium shadow-md hover:shadow-xl transition-all hover:scale-105'>
-                Let's Talk
+                Let&apos;s Talk
               </button>
             </Link>
           </motion.div>
