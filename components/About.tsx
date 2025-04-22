@@ -30,9 +30,11 @@ function About() {
   
   return (
     <section id="about" className="relative min-h-screen py-24 px-6 flex flex-col justify-center max-w-7xl mx-auto">
-      <h2 className="text-center md:text-left uppercase tracking-[15px] text-gray-500 text-2xl mb-12 sm:mb-16">
-        About
-      </h2>
+      <div className="w-full flex justify-center mb-12 sm:mb-16">
+        <h2 className="uppercase tracking-[15px] text-gray-300 text-2xl">
+          About
+        </h2>
+      </div>
       
       <div className="flex flex-col md:flex-row items-center gap-12 md:gap-16">
         <div 
@@ -51,11 +53,11 @@ function About() {
           ref={textRef}
           className="max-w-xl space-y-6 md:space-y-8 transition-all duration-700 opacity-0 translate-y-8"
         >
-          <h3 className="text-3xl font-bold">
+          <h3 className="text-3xl font-bold text-white">
             Here is a <span className="underline decoration-4 decoration-amber-400/70 pb-1">little</span> background
           </h3>
           
-          <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+          <p className="text-lg text-gray-200 leading-relaxed">
             I am Mike Munene, a dedicated developer specializing in mobile and web applications. My expertise lies in JavaScript and TypeScript, utilizing frameworks such as React Native, Next.js, and React.js to create dynamic and responsive applications. While these are my primary tools, I am versatile and adept at working with a variety of programming languages to meet the diverse needs of any project.
           </p>
           
