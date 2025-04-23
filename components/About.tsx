@@ -40,7 +40,7 @@ function About() {
             Here is a <span className="underline decoration-4 decoration-[#f7A80A]/70 pb-1">little</span> background
           </h3>
           
-          <p className="text-lg text-gray-200 leading-relaxed">I am Mike Munene, a dedicated developer specializing in mobile and web applications with a bachelor's degree in mathematics and computer science. My expertise lies in JavaScript and TypeScript, utilizing frameworks such as React Native, Next.js, and React.js to create dynamic and responsive applications. With my strong academic foundation in mathematics and computer science, I bring analytical thinking and problem-solving skills to software development. While JavaScript/TypeScript and React technologies are my primary tools, I am versatile and adept at working with a variety of programming languages to meet the diverse needs of any project
+          <p className="text-lg text-gray-200 leading-relaxed">I am Mike Munene, a dedicated developer specializing in mobile and web applications with a bachelor&apos;s degree in mathematics and computer science. My expertise lies in JavaScript and TypeScript, utilizing frameworks such as React Native, Next.js, and React.js to create dynamic and responsive applications. With my strong academic foundation in mathematics and computer science, I bring analytical thinking and problem-solving skills to software development. While JavaScript/TypeScript and React technologies are my primary tools, I am versatile and adept at working with a variety of programming languages to meet the diverse needs of any project
         </p>
           
           <motion.div 
